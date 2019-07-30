@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Project Starts Here</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/styles.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("user_FusldCCRgkGjUpWIhdw0c");
+        })();
+    </script>
+</head>
+<body>
+    <section id="top" class="container-fluid">
+        <nav>
+            <div class="d-flex justify-content-around">
+                <a class="nav-link my-bio" href="#bio"><i class="fas fa-user"></i></a>
+                <a class="nav-link my-portfolio" href="#portfolio"><i class="fas fa-suitcase"></i></a>
+                <a class="nav-link my-contacts" href="#contact-me"><i class="fas fa-envelope"></i></a>
+            </div>
+        </nav>
+        <h1 class="hero-h">EDDY</h1>
+
+        <p class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100010251691056" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="www.linkedin.com/in/jancaitis" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="www.pinterest.com/egidijusjanaitis" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+            <a href="http://www.instagram.com/ejancaitis" target="_blank"><i class="fab fa-instagram"></i></a>
+        </p>
+    </section>
+
+    <section id="portfolio" class="container-fluid">
+        <div id="carouselExampleControls" class="carousel slide portfolio-block" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2 class="project-details text-center">The Bandos</h5>
+                <p class="project-details text-center"><strong>Technologies used:</strong> HTML, CSS, Bootstrap</p>
+                <p class="project-details text-center mobile-hidden">My very first project for fictional '60s band who somehow still performing. Fully responsive page that works on any size device.</p>
+                <p class="links">
+                    <a class="portfolio-link" href="https://github.com/Megaprotas/01_jancaitis" target="_blank">Github Repo</a>
+                    <a class="portfolio-link" href="https://megaprotas.github.io/01_jancaitis/" target="_blank">Github Master</a>
+                </p>
+                <img src="images/bandos.JPG" class="d-block w-100" alt="bandos">
+              </div>
+              <div class="carousel-item">
+                <h2 class="project-details text-center">BugsHunters</h5>
+                <p class="project-details text-center"><strong>Technologies used:</strong> HTML, CSS, Bootstrap, JavaScript, Python(Django)</p>
+                <p class="project-details text-center mobile-hidden">Used the power of Django framework for this one. Little project that invoves standard blog, GitHub style discussion club, and e-commerce part. Got Stripe and Charts.js fully integrated into this one.</p>
+                <p class="links">
+                    <a class="portfolio-link" href="https://github.com/Megaprotas/04_jancaitis" target="_blank">Github Repo</a>
+                    <a class="portfolio-link" href="https://eddiej04.herokuapp.com/" target="_blank">Heroku</a>
+                </p>
+                <img src="images/bugshunters.jpg" class="d-block w-100" alt="bugshunters">
+              </div>
+              <div class="carousel-item">
+                <h2 class="project-details text-center">Location finder</h5>
+                <p class="project-details text-center"><strong>Technologies used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery</p>
+                <p class="project-details text-center mobile-hidden">This is handy if You're lost in a city or trying to find places. Fully ntegrated with google maps, mobile-friendly app that helps you to find desired activity.</p>
+                <p class="links">
+                    <a class="portfolio-link" href="https://github.com/Megaprotas/02_jancaitis" target="_blank">Github Repo</a>
+                    <a class="portfolio-link" href="https://megaprotas.github.io/02_jancaitis/" target="_blank">Github Master</a>
+                </p>
+                <img src="images/travel.jpg" class="d-block w-100" alt="experience">
+              </div>
+              <div class="carousel-item">
+                <h2 class="project-details text-center">Cook it</h5>
+                <p class="project-details text-center"><strong>Technologies used:</strong> HTML, CSS, Bootstrap, JavaScript, Python (Flask)</p>
+                <p class="project-details text-center mobile-hidden">Think You are worthy Chef? Share Your recipe on this Pinterest styled app powered by Flask.</p>
+                <p class="links">
+                    <a class="portfolio-link" href="https://github.com/Megaprotas/03_jancaitis" target="_blank">Github Repo</a>
+                    <a class="portfolio-link" href="https://eddiej03.herokuapp.com/get_ingredients" target="_blank">Heroku</a>
+                </p>
+                <img src="images/cookit.jpg" class="d-block w-100" alt="cookit">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          <a class="to-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+    </section>
+
+    <section id="bio" class="container-fluid">
+        <div class="d-flex">
+            <div class="about-me">
+                <img class="talented-person mobile-hidden" src="images/me.jpg" alt="talented person"/>
+                <h1 class="bio-header">About me</h1>
+                <p class="bio-para">Hi,</p>
+                <p class="bio-para">You came to the right place because that's where Your project starts.
+                    By education I am electronics engineer with experiance in programming in C,
+                    but was always fascinated by the web development.
+                    And here we go - a new career stage where I am looking forward to deliver new,
+                    bespoke web-page or single element for it. With a fresh experiance and
+                    loads of motivation I will make sure You get the best product for a best price.
+                    Yeah, the as I am just a beginner I can offer affordable prices, extra reviews
+                    for Your fully responsive, user-friendly website working on any size of device.
+                    So, if you're looking someone stable, who can get s**t done then would like to encourage You to fill the contact form and get in touch.</p>
+                <p class="bio-para">If not sure, please review my <a class="aboutme-link" href="#portfolio">portfolio</a>, and still - get in touch :)</p>
+                <p class="bio-para">My skillset: HTML5, CSS, JS, jQuery, Python (Flask and Django), AWS, Bootstrap, MongoDB, Postgre</p>
+                <p class="bio-para"><a class="cv-link" href="images/my_killer_CV.pdf" target="_blank">Open my killer CV <i class="fas fa-download"></i></a></p>
+            </div>
+        </div>
+        
+            <a class="to-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+    </section>
+
+    <section id="contact-me" class="container-fluid">
+        <div class="row">
+            <div class="contact-block contact-details mobile-hidden">
+                <h4>Contact me</h4>
+                <p><strong>Email:</strong></p>
+                <p>forest.lithuania@gmail.com</p>
+                <p><strong>Phone:</strong></p>
+                <p>(0) 775 171 3317</p>
+                <p><strong>Address:</strong></p>
+                <p>St.Albans, Herts</p>
+                <p>United Kingdom</p>
+            </div>
+            <div class="contact-block contact-form">
+                <h4 class="mobile-hidden">Or fill the form</h4>
+                <h4 class="large-hidden">Contact me</h4>
+                <form id="con-form" onsubmit="return sendMail(this);" method="POST">
+                    <label for="name" id="name">Name:</label>
+                    <input type="text" name="name" id="name" required><br>
+                    <label for="emailaddress" id="emailaddress">Email:</label>
+                    <input type="email" name="emailaddress" id="emailaddress" required><br>
+                    <label for="content">Brief:</label><br>
+                    <textarea id="content" name="content" rows="6" cols="35">
+                    </textarea>
+                    <input type="submit" value="Submit" id="submit" onclick="submitForm()">
+                </form>
+            </div>
+        </div>
+
+            <a class="to-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+
+    </section>
+    <footer id="footer" class="container-fluid">
+        <h3 class="footer-h3">EDDY</h3>
+        <p class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100010251691056" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="www.linkedin.com/in/jancaitis" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="www.pinterest.com/egidijusjanaitis"><i class="fab fa-pinterest-square" target="_blank"></i></a>
+            <a href="http://www.instagram.com/ejancaitis" target="_blank"><i class="fab fa-instagram"></i></a>
+        </p>
+    </footer>
+
+    <script src="JS/sendEmail.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/13fddc91ae.js"></script>
+</body>

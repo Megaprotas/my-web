@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Quattrocento Sans', sans-serif
+}
+
+#top {
+  height: 100vh;
+  background-image: url("../images/main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-h {
+  position: relative;
+  top: 28%;
+  text-align: center;
+  color: #E5E5E5;
+  font-size: 190px;
+  letter-spacing: 25px;
+}
+
+.social-icons {
+  position: relative;
+  top: 50%;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.social-icons a {
+  color: #E5E5E5;
+}
+
+nav {
+  position: relative;
+  top: 24%;
+}
+
+.nav-link {
+  font-size: 40px;
+  color: #E5E5E5;
+}
+
+.my-bio:focus,
+.my-bio:hover {
+  color: #8A2388;
+  transition-duration: .6s;
+}
+
+.my-portfolio:focus,
+.my-portfolio:hover {
+  color: #FFA832;
+  transition-duration: .6s;
+}
+
+.my-contacts:focus,
+.my-contacts:hover {
+  color: #5CAAA7;
+  transition-duration: .6s;
+}
+
+.social-icons>a:focus,
+.social-icons>a:hover {
+  color: #8A2388;
+  transition-duration: .6s;
+}
+
+#footer {
+  height: auto;
+  background-color: #000000;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.footer-h3 {
+  text-align: center;
+  margin-top: 1%;
+  color: #E5E5E5;
+  letter-spacing: 3px;
+}
+
+.to-top {
+  color: #5CAAA7;
+  font-size: 50px;
+  text-decoration: none;
+  margin-top: 1%;
+  margin-left: 48.5%;
+}
+
+.to-top:focus,
+.to-top:hover {
+  color: #8A2388;
+  transition-duration: .6s;
+}
+
+#bio {
+    height: auto;
+    background-color: #000000;
+  }
+
+.about-me {
+  position: relative;
+  height: 60%;
+  width: 80%;
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-top: 5%;
+  overflow: auto;
+}
+
+.talented-person {
+  float: left;
+}
+
+.bio-header {
+  color: #000000;
+  margin-top: 4%;
+  margin-left: 35%;
+  margin-bottom: 2%;
+}
+
+.bio-para {
+  color: #000000;
+  margin-left: 35%;
+  margin-right: 2%;
+  text-align: justify;
+  line-height: 2.2em;
+}
+
+.cv-link {
+  color: #000000;
+}
+
+.cv-link:hover{
+  color: #344152;
+  text-decoration: none;
+}
+
+#portfolio {
+  height: auto;
+}
+
+.portfolio-block {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.project-details {
+  padding-top: 1%;
+}
+
+.portfolio-link {
+  padding-left: 2%;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.portfolio-link:hover {
+  color: #FFA832;
+  text-decoration: none;
+}
+
+.links {
+  text-align: center;
+}
+
+.aboutme-link {
+  color: #8A2388;
+}
+
+.aboutme-link:hover {
+  color: #FFA832;
+  text-decoration: none;
+}
+
+#contact-me {
+  height: auto;
+  background-color: #ffffff;
+  padding-top: 2%;
+}
+
+label {
+  display: inline-block;
+  width: 10%;
+}
+
+textarea {
+  width: 95%;
+  margin-bottom: 1%;
+}
+
+input {
+  width: 95%;
+  margin-bottom: 1%;
+}
+
+.contact-block {
+  margin-top: 2%;
+  color: #E5E5E5;
+}
+
+.contact-details {
+  width: 17%;
+  height: auto;
+  margin-left: 10.5%;
+  padding-left: 2%;
+  padding-top: 1%;
+  background-color: #5CAAA7;
+}
+
+.contact-form {
+  width: 59%;
+  margin-left: 3%;
+  padding-left: 2%;
+  padding-top: 1%;
+  background-color: #FFA832;
+}
+
+#submit {
+  border-radius: 0;
+  width: 20%;
+  margin-bottom: 2%;
+  background-color: #8A2388;
+  color: #E5E5E5;
+  border: none;
+}
+
+#submit:hover {
+  border-color: #000000;
+  background-color: #000000;
+  color: #E5E5E5;
+}
+
+.large-hidden {
+  display: none;
+}
+
+@media only screen and (max-device-width : 767px) {
+  .hero-h {
+    font-size: 110px;
+  }
+
+  nav {
+    top: 20%;
+  }
+
+  .social-icons {
+    top: 60%;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+
+  .about-me {
+    background-color: #000000;
+    margin-top: 5%;
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  .bio-header {
+    color: #ffffff;
+    margin-bottom: 2%;
+    margin-left: 2%;
+  }
+  
+  .bio-para {
+    color: #ffffff;
+    text-align: justify;
+    line-height: 2.2em;
+    margin-left: 2%;
+  }
+
+  .cv-link {
+    color: #ffffff;
+  }
+
+  #contact-me {
+    background-color: #FFA832;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-top: 0%;
+    background-color: #FFA832;
+  }
+
+  form {
+    margin-left: 3%;
+  }
+}
